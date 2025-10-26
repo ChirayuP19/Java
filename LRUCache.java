@@ -12,7 +12,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 	private int capacity;
 
 	public static void main(String[] args) {
-		// 3 entry when 4 add remove 3st entry
+		// 3 entry when 4 add remove 1st entry
 
 		LRUCache<String, Integer> studentMap = new LRUCache<>(3);
 		studentMap.put("Kavya", 100);
@@ -28,3 +28,4 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 	}
 
 }
+
