@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class ConnectionFactory {
     private static final String DB_URl="jdbc:mysql://localhost:3306/mystudent";
     private static final String DB_USERNAME="root";
-    private static final String DB_PASSWORD="Chirayu@1911";
+    private static final String DB_PASSWORD="your_password";
 
     public static Connection getConnection(){
         Connection connection=null;
@@ -29,3 +29,4 @@ public class ConnectionFactory {
     }
 
 }
+
